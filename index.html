@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+  <link rel="stylesheet" href="./src/input.css">
+  <link rel="stylesheet" href="./src/output.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="border bg-pink-600 w-full  rounded-bl-4xl">
+       <div class="border mx-auto px-9 py-6 mt-3 flex flex-row justify-between">
+           <div class="flex flex-row space-x-9">
+              <div>
+                <img src="./images/logo.svg" alt="" srcset="">
+              </div>
+              <div class="hidden lg:flex space-x-8 mt-3">
+                <a href="#" class="text-amber-50 font-bold">Product</a>
+                <a href="#" class="text-amber-50 font-bold">Company</a>
+                <a href="#" class="text-amber-50 font-bold">Connect</a>
+              </div>
+           </div>
+           <div class=" hidden lg:flex space-x-8 mt-3">
+           <a href="#" class="font-bold">login</a>
+           <a href="#" class="bg-yellow-50 rounded-xl px-5 font-bold text-pink-400">sign-ups </a>
+           </div>
+       </div>
+     <!-- end of nav -->
+
+       <section id="content">
+           <div class="border text-center mt-16">
+                <h1 class="text-3xl text-balance px-9 mb-4 text-amber-50 lg:text-5xl"> A modern publishing platform</h1>
+                <p class=" text-xl text-white px-5 mb-6"> Grow your audience and build your online brand</p>
+              <div class="space-x-5 mb-15">
+                <a href="#" class="bg-yellow-50 font-bold rounded-xl px-3 py-2 text-pink-400">Start for Free</a>
+                <a href="#" class="border rounded-xl px-4 py-2 font-bold text-white">Learn More</a>
+              </div>
+           </div>
+       </section>
+  </div>
+  <!-- end first phase of navagation -->
+
+    <section id="article">
+        <div class="border text-center mt-20">
+          <h1 class="text-3xl font-bold"> Designed for the future</h1>
+       </div>
+        <div class=" container flex  flex-col-reverse border lg:flex-row justify-around mx-auto w-[90%] ">
+          <div class=" border  lg:mx-auto  mt-20">
+            <h2 class="text-3xl px-7 mb-6 font-bold lg:text-xl">Introducing an extensible editor</h2>
+            <p class=" border px-5 mb-5 font-light">Introducing an extensible editor
+              Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+              change the looks of a blog.
+            </p>
+            <div>
+              <h2  class="text-3 xl px-7 mb-6 font-bold lg:text-xl">Introducing an extensible editor</h2>
+              <p class=" border px-5 mb-5 font-light">Introducing an extensible editor
+                Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+                The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+                videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+                change the looks of a blog.
+              </p>
+            </div>
+          </div>
+                <img src="./images/illustration-editor-mobile.svg" class="block lg:hidden" >
+                <img src="./images/illustration-editor-desktop.svg" class="hidden lg:block w-[50%] h-76vh" >
+        </div>
+
+    </section>
+    
+        <section id="images">
+          <div class="bg-blue-800 rounded-es-4xl mb-25 rounded-se-full lg:h-80 lg:rounded-bl-4xl lg:rounded-se-4xl">
+            <div class="container mt-10 flex flex-col mx-auto w-[70%]  lg:flex-row">
+              <img src="./images/illustration-phones.svg" class=" w-[70%]">
+              <div class="mt-15">
+                <h2 class="text-white text-2xl mb-7"> State of the Art Infrastructure</h2>
+                <p class="text-white mb-10">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+                  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="articles">
+           <div class="container flex flex-col  justify-between space-x-0 space-y-0 lg:flex-row  ">
+              <img src="./images/illustration-laptop-mobile.svg" class="block lg:hidden" >
+              <img src="./images/illustration-laptop-desktop.svg" class="hidden lg:block w-[60%]">
+             <div class=" px-9  lg:mt-35">
+                <h3 class="text-2xl mb-2">Free, open, simple</h3>
+                <p class="mb-4"> Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+                  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+                  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+                <h3 class="text-2xl mb-2">Powerful tooling</h3>
+                <p class="mb-5"> Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                  capable of producing even the most complicated sites.</p>
+             </div>
+           </div>
+        </section>
+
+        <footer id="ending">
+          <div class="bg-indigo-950 w-full h-auto rounded-tr-4xl">
+            <div class="mx-auto items-center mb-4 px-10 py-16 pt-5 s justify-between flex flex-col lg:flex-row w-[80%]">
+              <img src="./images/logo.svg" class=" size-20 mt-5" srcset="">
+              <div class="mt-8 mb-8">
+                <h5 class="text-2xl text-white mb-4">Product</h5>
+                <li class="text-white list-none text-xl">Overview</li>
+                <li class="text-white list-none text-xl">Pricing</li>
+                <li class="text-white list-none text-xl"> Marketplace</li>
+                <li class="text-white list-none text-xl">Features</li>
+                <li class="text-white list-none text-xl">Integrations</li>
+              </div>
+              <div class="mt-8 mb-8">
+                <h5 class="text-2xl text-white mb-4"> Company</h5>
+                <li class="text-white list-none text-xl">Overview</li>
+                <li class="text-white list-none text-xl">Pricing</li>
+                <li class="text-white list-none text-xl"> Marketplace</li>
+                <li class="text-white list-none text-xl">Features</li>
+              </div>
+              <div class="mt-8 mb-8">
+                <h5 class="text-2xl text-white mb-4">Product</h5>
+                <li class="text-white list-none text-xl">Overview</li>
+                <li class="text-white list-none text-xl">Pricing</li>
+                <li class="text-white list-none text-xl"> Marketplace</li>
+              </div>
+            </div>
+          </div>
+        </footer>
+  Company
+
+  About
+  Team
+  Blog
+  Careers
+
+  Connect
+
+  Contact
+  Newsletter
+  LinkedIn
+  
+  Login
+  Sign Up
+
+  A modern publishing platform
+  Grow your audience and build your online brand
+
+  Start for Free
+  Learn More
+
+  Designed for the future
+
+  Introducing an extensible editor
+  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+  change the looks of a blog.
+
+  Robust content management
+  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+
+  State of the Art Infrastructure
+  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+
+  Free, open, simple
+  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+
+  Powerful tooling
+  Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+  capable of producing even the most complicated sites.
+
+  Product
+
+  Overview
+  Pricing
+  Marketplace
+  Features
+  Integrations
+
+  Company
+
+  About
+  Team
+  Blog
+  Careers
+
+  Connect
+  
+  Contact
+  Newsletter
+  LinkedIn
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
